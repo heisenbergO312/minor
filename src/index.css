@@ -1,0 +1,280 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@200&family=Work+Sans&display=swap');
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0 2 0 4  ;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+
+  .dropdowns{
+    padding:1em 3em 1em 25em;
+  }
+
+#basic-nav-dropdown{
+   padding:0 1em 0 2em;
+}
+
+/* For Login*/
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+  .bd-mode-toggle {
+    z-index: 1500;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .form-signin {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .head{
+    width: 100px; 
+    margin: 0 auto; 
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color of the footer */
+    padding: 25px; /* Spacing inside the footer */
+    text-align: center; /* Center-align the content */
+    font-size: 16px; /* Font size for text in the footer */
+    margin:0;
+    /* Add any additional styles you need for your footer */
+  }
+
+
+
+/* ------------*/
+
+
+/* Contact */
+
+.form-control-contact {
+  width: 60%;
+  padding: 15px;
+  text-align: center;
+  margin: 1em auto; /* Center horizontally with auto margins */
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center horizontally within the container */
+  justify-content: center; /* Center vertically within the container */
+}
+
+.contact-section {
+  color: white; /* Set text color to white */
+}
+
+.background-image1 {
+  background-image: url('../public/images/support.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Set the desired height for your background image */
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 60vh; /* Center vertically in the viewport */
+}
+
+.image-info1{
+  position: absolute;  /* Position the element relative to the viewport */
+  top: 40%;  /* Move it 50% down from the top */
+  right: 18%;  /* Align it to the right side of the page */
+  transform: translateY(-50%);  /* Center it vertically */
+  color:white;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+/* ------------*/
+
+
+
+/* About */
+.background-image2 {
+  background-image: url('../public/images/resources.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Set the desired height for your background image */
+}
+
+.image-info2{
+  position: absolute;  /* Position the element relative to the viewport */
+  top: 40%;  /* Move it 50% down from the top */
+  right: 18%;  /* Align it to the right side of the page */
+  transform: translateY(-50%);  /* Center it vertically */
+  color: white;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  width: 400px; /* Set the desired fixed width */
+
+  /* Allow text to wrap to the next line within the fixed width */
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+/* ------------*/
+
+
+/* HomePage*/
+
+.center-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  font-family: 'Nunito', sans-serif;
+  height: 20vh; /* Center vertically in the viewport */
+}
+
+.container-insurance-info{
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc; /* Add a border */
+  background-color: #f2f2f2; /* Add a light background color */
+  margin-left:1em;
+  font-family: 'Nunito', sans-serif;
+  padding:2em;
+  font-weight: 600;
+ 
+}
+
+.right {
+  background-image: url('../public/images/2.jpg');
+  flex: 1;
+  margin-right: 1em;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover; /* Add this to make the image fully cover the container */
+  background-position: center;
+  
+}
+
+
+
+
+/* ------------*/
+
+

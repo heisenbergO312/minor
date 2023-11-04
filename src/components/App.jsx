@@ -6,6 +6,8 @@ import Policy from "../pages/Policy";
 import Downloads from "../pages/Downloads";
 import Kyc from "../pages/Kyc";
 import Documents from "../pages/Documents"
+import Login from "../Login"
+
 
 
 
@@ -20,8 +22,7 @@ function App() {
         <Route path='/downloads' element={<Downloads/>}/>
         <Route path='/kycapp' element={<Kyc/>}/>
         <Route path='/documents' element={<Documents/>}/>
-
-
+        <Route path='/login' element={<Login/>}/>
       </Routes>
     </>
   );
